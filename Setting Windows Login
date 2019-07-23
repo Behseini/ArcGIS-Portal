@@ -1,0 +1,19 @@
+Navigate to PortalAdmin --> security--> config-->Update Identity Store
+https://xxx.xxx.com/pgis/portaladmin/security/config/updateIdentityStore
+    {   
+    "type": "WINDOWS",   
+    "properties": {     
+       "userPassword": "secret",     
+       "isPasswordEncrypted": "false",     
+       "user": "clevest\\winaccount",    
+       "userFullnameAttribute": "cn",     
+       "userEmailAttribute": "mail",     
+       "caseSensitive": "false"   
+       } 
+    }
+    
+    Update the Configuration.
+    
+    This is test able on 
+    
+    https://xxx.xxx.com/pgis/portaladmin/security/config/testIdentityStore
